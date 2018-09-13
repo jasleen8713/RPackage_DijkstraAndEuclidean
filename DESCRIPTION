@@ -6,7 +6,7 @@ Author: Jasleen , Aashana
 Maintainer: The package maintainer <jasleen8713@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: Apache Licence
+License: Apache License
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat
