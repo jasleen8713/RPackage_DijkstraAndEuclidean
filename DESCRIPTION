@@ -10,4 +10,4 @@ License: Apache Licence
 Encoding: UTF-8
 LazyData: true
 Suggests: testthat
-
+RoxygenNote: 6.1.0
