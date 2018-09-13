@@ -8,6 +8,8 @@ dijkstra(graph, init_node)
 }
 \arguments{
 \item{graph}{as data.frame}
+
+\item{init_node}{as numeric scalar}
 }
 \value{
 a vector with smallest length from the initial node to all the nodes
