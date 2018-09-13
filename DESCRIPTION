@@ -2,7 +2,7 @@ Package: Lab3Package
 Type: Package
 Title: Function to run dijkstra algorithm which returns a vector with smallest length from the initial node to all the nodes
 Version: 0.1.0
-Author: Jasleen , Aashana
+Author: Jasleen Kaur Mann and Aashana Nijhawanß
 Maintainer: The package maintainer <jasleen8713@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
