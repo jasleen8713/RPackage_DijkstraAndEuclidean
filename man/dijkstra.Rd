@@ -12,7 +12,7 @@ dijkstra(graph, init_node)
 \item{init_node}{as numeric}
 }
 \value{
-a vector with smallest length from the initial node to all the nodes
+vector
 }
 \description{
 Function to run dijkstra algorithm
