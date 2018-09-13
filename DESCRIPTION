@@ -1,6 +1,6 @@
 Package: Lab3Package
 Type: Package
-Title: Function to run dijkstra algorithm. Returns a vector with smallest length from the initial node to all the nodes.
+Title: Function to run dijkstra algorithm which returns a vector with smallest length from the initial node to all the nodes
 Version: 0.1.0
 Author: Jasleen , Aashana
 Maintainer: The package maintainer <jasleen8713@gmail.com>

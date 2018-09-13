@@ -1,6 +1,6 @@
 #'Function to run dijkstra algorithm
 #'@param graph as data.frame
-#'@init_node as numeric scalar
+#'@param init_node as numeric scalar
 #'@return a vector with smallest length from the initial node to all the nodes
 #'@export
 #'@examples
