@@ -1,23 +1,14 @@
 #'Implements Euclidean algorithm to find GCD in the fastest possible way
 #' Authors@R: Aashana, Jasleen
-#' @param x numeric
-#' @param y numeric
-#'
-#' @return GCD for x and y
+#' @param x as numeric
+#' @param y as numeric
+#' @return numeric
 #' @export
-#' @example euclidean(100, 1000)
-#' @references <https://en.wikipedia.org/wiki/Euclidean_algorithm>
+#' @example euclidean(x=100, y=1000)
+#' @references  <https://en.wikipedia.org/wiki/Euclidean_algorithm>
 
 euclidean <- function(x,y){
 stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
-  # small<-min(x,y)
-  # i<-1
-  # k<- vector()
-  # for(i in 1:small)
-  #   if(x%%i==0 && y%%i==0 ){
-  #     k <- i
-  #   }
-  # return(k)
 
   while (x != y){
   if (x > y)
@@ -28,5 +19,3 @@ stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
   return (x)
 
 }
-euclidean(13892347912, 123612)
-euclidean(100, 1000)

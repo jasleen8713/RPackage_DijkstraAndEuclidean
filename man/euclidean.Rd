@@ -8,12 +8,12 @@ Authors@R: Aashana, Jasleen}
 euclidean(x, y)
 }
 \arguments{
-\item{x}{numeric}
+\item{x}{as numeric}
 
-\item{y}{numeric}
+\item{y}{as numeric}
 }
 \value{
-GCD for x and y
+numeric
 }
 \description{
 Implements Euclidean algorithm to find GCD in the fastest possible way
