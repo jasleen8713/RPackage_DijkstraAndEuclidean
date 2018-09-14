@@ -7,3 +7,4 @@
 #' @usage data(wiki_graph)
 #' @keywords datasets
 #' @references <https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm>
+"wiki_graph"
