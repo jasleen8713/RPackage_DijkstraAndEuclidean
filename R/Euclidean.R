@@ -9,7 +9,13 @@
 
 euclidean <- function(x,y){
 stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
-
+  
+  if(x<0){
+    x <- -x
+  }
+  if(y<0){
+    y <- -y
+  }
   while (x != y){
   if (x > y)
     {x <- x - y}
@@ -19,3 +25,4 @@ stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
   return (x)
 
 }
+euclidean(-100, 1000)
