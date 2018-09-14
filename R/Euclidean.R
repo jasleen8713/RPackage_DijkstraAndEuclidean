@@ -2,10 +2,11 @@
 #' Authors@R: Aashana, Jasleen
 #' @param x numeric
 #' @param y numeric
-#' 
+#'
 #' @return GCD for x and y
 #' @export
 #' @example euclidean(100, 1000)
+#' @references <https://en.wikipedia.org/wiki/Euclidean_algorithm>
 
 euclidean <- function(x,y){
 stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
@@ -17,7 +18,7 @@ stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
   #     k <- i
   #   }
   # return(k)
-  
+
   while (x != y){
   if (x > y)
     {x <- x - y}
@@ -25,7 +26,7 @@ stopifnot(is.numeric(x) && is.numeric(y) && length(x)==1 && length(y) ==1)
     {y <- y - x}
   }
   return (x)
-  
+
 }
 euclidean(13892347912, 123612)
 euclidean(100, 1000)

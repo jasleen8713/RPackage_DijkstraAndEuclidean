@@ -1,11 +1,12 @@
 Package: Lab3Package
 Type: Package
-Title: Function to run dijkstra algorithm which returns a vector with smallest length from the initial node to all the nodes
+Title: R implementation of Euclidean and Dijkstra algorithms 
 Version: 0.1.0
-Author: Jasleen Kaur Mann and Aashana Nijhawanß
+Author: Jasleen Kaur Mann and Aashana Nijhawan
 Maintainer: The package maintainer <jasleen8713@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: This package has implementation for Euclidean and Dijkstra algorithms. 
+    The function euclidean finds greatest common divisor for two numbers.Takes two numbers scalars or integers as arguments and return their greatest common divisor.
+    The function dijkstra takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph. It takes data.frame and numeric scalar as arguments and returns vector.
 License: Apache License
 Encoding: UTF-8
 LazyData: true

@@ -1,0 +1,3 @@
+load("/Users/amitkumar/Documents/Studies/Rprogramming/RPackages_Lab3/Lab3Package/data/wiki_graph.RData")
+wiki_graph
+data(wiki_graph)
